@@ -1,0 +1,80 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+}
+
+.card-container {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 350px;
+    width: 90%;
+}
+
+.pokemon-name {
+    text-transform: capitalize;
+    font-size: 2.5em;
+    color: #cc0000; /* Color principal de Pokémon */
+    margin-bottom: 5px;
+}
+
+.pokemon-id {
+    color: #666;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.pokemon-image {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.abilities-title {
+    font-size: 1.4em;
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.abilities-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ability-item {
+    background-color: #ffe033; /* Color amarillo Ditto */
+    color: #333;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.ability-hidden {
+    background-color: #555;
+    color: #fff;
+    font-size: 0.7em;
+    padding: 3px 6px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.loading {
+    font-size: 1.5em;
+    color: #cc0000;
+}
